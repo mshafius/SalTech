@@ -1,0 +1,216 @@
+@media (max-width: 750px){
+    * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: cursive;
+            color: #fff;
+        }
+    
+        .root {
+            max-width: 70%;
+            height: 500px;
+            margin: 0 auto;
+
+            background-image: url(./images/landingPage.jpg);
+            background-size: cover;
+        }
+    
+        .header {
+            height: 70px;
+            width: 100%;
+            
+
+        }
+    
+        .navbar {
+            display: flex;
+            margin-top: 0.5em;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            height: 30px;
+        }
+    
+        .nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 0.5em;
+        }
+    
+        .btn {
+            
+            border-radius: 30px;
+            padding: 0.5em;
+        }
+    
+        .btn:hover {
+            cursor: pointer;
+            outline: auto;
+            font-weight: bold;
+        }
+    
+        .header::after {
+            content: "";
+            margin: 1em;
+            
+        }
+    
+        .container {     
+            height: 300px;
+        }
+    
+        .main {
+            width: 70%;
+            margin: 3em auto;
+            text-align: center;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+}
+
+
+/* desktop devises */
+
+@media (max-width: 1880px){
+    * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #fff;
+            text-transform: capitalize;
+        }
+        a {
+            text-decoration: none;
+            color:#fff;
+        }
+        
+        html {
+            background-color: #dfd9d9;
+        }
+        .root {
+            max-width: 70%;
+            height: 700px;
+            margin: 1em auto;
+            background-size: cover;
+            background-clip: 50%;
+            border-radius: 5px 5px 0 0;
+    
+        }
+    
+        .header {
+            height: 70px;
+            width: 100%;
+            background-color: rgb(53, 144, 172);
+    
+        }
+    
+        .navbar {
+            display: flex;
+            padding: 2em;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            height: 30px;
+            width: 100%;
+        }
+    
+        .nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 0.5em;
+        }
+    
+        .btn {
+            border: solid 2px #fff;
+            border-radius: 30px;
+            padding: 0.5em;
+        }
+
+    
+        .btn:hover {
+            cursor: pointer;
+            background-color: rgb(42, 163, 113);
+            font-weight: bold;
+        }
+
+        .btn-bg:hover {
+            background-color: rgb(53, 144, 172);
+        
+        }
+    
+        .header::after {
+            content: "";
+            margin: 1em;
+    
+        }
+    
+        .container {
+            height: 270px;
+            background-color: rgb(42, 163, 113);
+            border-radius: 0 0 5px 5px;
+        }
+    
+        .main {
+            width: 70%;
+            margin: 0 auto;
+            text-align: center;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        .heading {
+            height: 250px;
+            background-image: url(images/landingPage.jpg);
+            background-size: cover;
+        }
+
+
+        /* Login Site styling */
+
+        .form {
+            text-align: center;
+            height: 100%;
+            width: 70%;
+            margin: 0 auto;
+        }
+        .form h1 {
+
+            margin-bottom: 1em;
+            margin-top: 0.5em;
+        }
+        .form-group {
+            height: 50px;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        input {
+            width: 60%;
+            height: 70%;
+            border: 3px solid rgb(53, 144, 172);
+            border-radius: 5px;
+            padding: 4px;
+        }
+
+        label {
+            font-size: large;
+            font-weight: 700;
+        }
+        #submit {
+            background-color: rgb(53, 144, 172);
+        }
+        .container-fluid {
+            align-self: center;
+        }
+}
