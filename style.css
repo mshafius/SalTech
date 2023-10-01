@@ -170,6 +170,7 @@
             height: 250px;
             background-image: url(images/landingPage.jpg);
             background-size: cover;
+            loading: lazy;
         }
 
 
